@@ -1,22 +1,20 @@
-﻿<!DOCTYPE html>
-<html lang="en">
+﻿<!doctype html>
+<html ng-app="myModule">
 <head>
-    <title>Bootstrap Example</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="Scripts/angular.min.js"></script>
+    <script type="text/javascript" src="Scripts/AppJs/home.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
 </head>
-<body>
-    <div class="jumbotron text-center">
-        <h1 class="glyphicon glyphicon-heart-empty"></h1>
-        <h1>This Page Is Under Construcion...</h1>
-        <br>
-        <h3>Stay Tuned...</h3>
-        <h1 class="glyphicon glyphicon-hourglass"></h1>
+<body style="background-color:#eee">
+    <div class="container">
+        <div class="jumbotron text-center" ng-controller="myController">
+            <h1 class="glyphicon glyphicon-heart-empty"></h1>
+            <h1>{{ message1 }}</h1>
+            <br />
+            <h1>{{ message2 }}</h1>
+            <h1 class="glyphicon glyphicon-hourglass"></h1>           
+        </div>
     </div>
 </body>
 </html>
-
