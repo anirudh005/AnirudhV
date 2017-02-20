@@ -94,6 +94,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\Image1.JPG" />
+    <Content Include="Images\Image2.JPG" />
+    <Content Include="Images\Image3.JPG" />
+    <Content Include="Images\Image4.JPG" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -109,6 +113,7 @@
     <Content Include="Index.html" />
     <Content Include="Scripts\angular.min.js" />
     <Content Include="Scripts\AppJs\home.js" />
+    <Content Include="Scripts\AppJs\PhotoGal.js" />
     <Content Include="Scripts\jquery-3.1.1.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
